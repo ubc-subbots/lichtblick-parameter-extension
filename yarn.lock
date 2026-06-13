@@ -2179,43 +2179,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"create-lichtblick-extension@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "create-lichtblick-extension@workspace:."
-  dependencies:
-    "@lichtblick/eslint-plugin": "npm:2.0.3"
-    "@lichtblick/tsconfig": "npm:1.0.2"
-    "@types/jest": "npm:29.5.14"
-    "@types/ncp": "npm:2.0.8"
-    "@types/node": "npm:22.9.0"
-    "@types/node-fetch": "npm:2.6.12"
-    "@types/tmp": "npm:0.2.6"
-    clean-webpack-plugin: "npm:4.0.0"
-    commander: "npm:12.1.0"
-    css-loader: "npm:7.1.2"
-    eslint: "npm:9.38.0"
-    eslint-config-prettier: "npm:9.1.0"
-    jest: "npm:29.7.0"
-    jszip: "npm:3.10.1"
-    mkdirp: "npm:3.0.1"
-    ncp: "npm:2.0.0"
-    node-fetch: "npm:2.7.0"
-    path-browserify: "npm:1.0.1"
-    prettier: "npm:3.4.2"
-    rimraf: "npm:6.0.1"
-    sanitize-filename: "npm:1.6.3"
-    style-loader: "npm:4.0.0"
-    tmp: "npm:0.2.4"
-    ts-jest: "npm:29.2.5"
-    ts-loader: "npm:9.5.1"
-    typescript: "npm:5.6.3"
-    webpack: "npm:5.105.3"
-  bin:
-    create-lichtblick-extension: dist/bin/create-lichtblick-extension.js
-    lichtblick-extension: dist/bin/lichtblick-extension.js
-  languageName: unknown
-  linkType: soft
-
 "cross-spawn@npm:^7.0.3, cross-spawn@npm:^7.0.6":
   version: 7.0.6
   resolution: "cross-spawn@npm:7.0.6"
@@ -4655,6 +4618,43 @@ __metadata:
   checksum: 10c0/effb03cad7c89dfa5bd4f6989364bfc79994c2042ec5966cb9b95990e2edee5cd8969ddf42616a0373ac49fac1403437deaf6e9050fbbaa3546093a59b9ac94e
   languageName: node
   linkType: hard
+
+"lichtblick-panel-extension@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "lichtblick-panel-extension@workspace:."
+  dependencies:
+    "@lichtblick/eslint-plugin": "npm:2.0.3"
+    "@lichtblick/tsconfig": "npm:1.0.2"
+    "@types/jest": "npm:29.5.14"
+    "@types/ncp": "npm:2.0.8"
+    "@types/node": "npm:22.9.0"
+    "@types/node-fetch": "npm:2.6.12"
+    "@types/tmp": "npm:0.2.6"
+    clean-webpack-plugin: "npm:4.0.0"
+    commander: "npm:12.1.0"
+    css-loader: "npm:7.1.2"
+    eslint: "npm:9.38.0"
+    eslint-config-prettier: "npm:9.1.0"
+    jest: "npm:29.7.0"
+    jszip: "npm:3.10.1"
+    mkdirp: "npm:3.0.1"
+    ncp: "npm:2.0.0"
+    node-fetch: "npm:2.7.0"
+    path-browserify: "npm:1.0.1"
+    prettier: "npm:3.4.2"
+    rimraf: "npm:6.0.1"
+    sanitize-filename: "npm:1.6.3"
+    style-loader: "npm:4.0.0"
+    tmp: "npm:0.2.4"
+    ts-jest: "npm:29.2.5"
+    ts-loader: "npm:9.5.1"
+    typescript: "npm:5.6.3"
+    webpack: "npm:5.105.3"
+  bin:
+    create-lichtblick-extension: dist/bin/create-lichtblick-extension.js
+    lichtblick-extension: dist/bin/lichtblick-extension.js
+  languageName: unknown
+  linkType: soft
 
 "lie@npm:~3.3.0":
   version: 3.3.0
